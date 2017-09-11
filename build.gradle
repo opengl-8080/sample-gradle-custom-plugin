@@ -11,14 +11,13 @@ buildscript {
 
 apply plugin: 'com.gradle.plugin-publish'
 apply plugin: 'groovy'
-apply plugin: 'eclipse'
 
 dependencies {
     compile gradleApi()
     compile localGroovy()
 }
 
-version = '1.0.1'
+version = '1.0.3'
 group = 'com.github.opengl-8080'
 
 pluginBundle {
@@ -35,5 +34,4 @@ pluginBundle {
     }
 }
 
-eclipse.project.name = 'gradle-my-plugin'
 jar.baseName = 'gradle-my-plugin'

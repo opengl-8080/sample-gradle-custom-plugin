@@ -7,8 +7,10 @@ class MyGradlePlugin implements Plugin<Project> {
 
     @Override
     void apply(Project project) {
-        project.task('hello') << {
-            println 'Hello My Gradle Plugin!!'
+        project.task('hello') {
+            doLast {
+                println 'Hello My Gradle Plugin!!'
+            }
         }
     }
 }

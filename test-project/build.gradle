@@ -1,0 +1,12 @@
+buildscript {
+  repositories {
+    maven {
+      url "https://plugins.gradle.org/m2/"
+    }
+  }
+  dependencies {
+    classpath "gradle.plugin.com.github.opengl-8080:sample-gradle-custom-plugin:1.0.2"
+  }
+}
+
+apply plugin: "com.github.opengl-BOBO.hello"
