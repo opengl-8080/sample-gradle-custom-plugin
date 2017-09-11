@@ -17,7 +17,7 @@ dependencies {
     compile localGroovy()
 }
 
-version = '1.0.3'
+version = '1.0.4'
 group = 'com.github.opengl-8080'
 
 pluginBundle {
