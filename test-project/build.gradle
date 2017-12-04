@@ -5,7 +5,9 @@ buildscript {
     }
   }
   dependencies {
-    classpath "gradle.plugin.com.github.opengl-8080:sample-gradle-custom-plugin:1.0.4"
+//    classpath 'org.apache.commons:commons-lang3:3.7'
+//    classpath files("../build/libs/gradle-my-plugin-1.0.5.jar")
+    classpath "gradle.plugin.com.github.opengl-8080:sample-gradle-custom-plugin:1.0.5"
   }
 }
 

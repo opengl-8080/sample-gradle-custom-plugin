@@ -12,12 +12,17 @@ buildscript {
 apply plugin: 'com.gradle.plugin-publish'
 apply plugin: 'groovy'
 
+repositories {
+    mavenCentral()
+}
+
 dependencies {
     compile gradleApi()
     compile localGroovy()
+    compile 'org.apache.commons:commons-lang3:3.7'
 }
 
-version = '1.0.4'
+version = '1.0.5'
 group = 'com.github.opengl-8080'
 
 pluginBundle {
