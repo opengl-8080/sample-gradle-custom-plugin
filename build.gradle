@@ -22,7 +22,7 @@ dependencies {
     compile 'org.apache.commons:commons-lang3:3.7'
 }
 
-version = '1.0.5'
+version = '2.0.0'
 group = 'com.github.opengl-8080'
 
 pluginBundle {
@@ -33,7 +33,7 @@ pluginBundle {
 
     plugins {
         hello {
-            id = 'com.github.opengl-BOBO.hello'
+            id = 'com.github.opengl-BOBO.hello2'
             displayName = 'Sample Gradle Custom Plugin'
         }
     }
